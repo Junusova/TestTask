@@ -16,7 +16,7 @@ public class CreateTaskTests {
     loginSuccessful();
   }
 
-  @Story("Create And Assert New Boards")
+  @Story("Create And Assert New Board Fields")
   @Test
   public void test_01_createNewBoards() {
     elementShouldHaveText(boards, "Boards");
