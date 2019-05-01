@@ -18,7 +18,7 @@ public class CreateTaskTests {
 
   @Story("Create And Assert New Board Fields")
   @Test
-  public void test_01_createNewBoards() {
+  public void test_01_createNewBoard() {
     elementShouldHaveText(boards, "Boards");
     clickOnElement(boards);
     elementShouldHaveText(createNewBoardButton, "Create new board…");
