@@ -10,8 +10,8 @@ import static testMethods.AssertMethods.sendKeysToElement;
 
 public class AuthorizationMethods {
 
-  public static String testAccount = "ckiber10@gmail.com";
-  public static String testPassword = "911ckiber";
+  public static String testAccount = "trello00012@gmail.com";
+  public static String testPassword = "A5VZQsCqNasNXV";
 
   @Step
   public static void loginSuccessful() {
